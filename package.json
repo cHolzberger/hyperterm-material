@@ -1,20 +1,20 @@
 {
-  "name": "hyperterm-material",
+  "name": "hyperterm-material-vibracy",
   "repository" : {
     "type" : "git",
-    "url" : "https://github.com/dperrera/hyperterm-material"
+    "url" : "https://github.com/cHolzberger/hyperterm-material-vibracy"
   },
   "version": "0.1.7",
-  "description": "A material inspired theme for Hyper.",
+  "description": "A material inspired theme for Hyper with Vibracy.",
   "main": "index.js",
   "keywords": [
     "hyperterm",
     "hyper"
   ],
   "author": {
-    "name": "Dan Perrera",
-    "email": "dan@foredesign.co",
-    "url": "https://foredesign.co"
+    "name": "Christian Holzberger",
+    "email": "ch@mosaiksoftware.de",
+    "url": "http://mosaiksoftware.de"
   },
   "license": "ISC"
 }
