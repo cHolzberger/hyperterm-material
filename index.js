@@ -1,8 +1,10 @@
-exports.decorateConfig = (config) => {
+module.exports.onWindow = browserWindow => browserWindow.setVibrancy('dark');
+
+module.exports.decorateConfig = (config) => {
   return Object.assign({}, config, {
     foregroundColor: '#ECEFF1',
-    backgroundColor: '#263238',
-    borderColor: '#222d32',
+    backgroundColor: 'rgba(38,50,56,.6)',
+    borderColor: 'rgba(38,50,56,.9)',
     cursorColor: 'rgba(0, 150, 136, .5)',
     colors: {
       black: '#263238',
@@ -28,7 +30,7 @@ exports.decorateConfig = (config) => {
         border: none !important;
       }
       .header_header {
-        background: #222d32 !important;
+        background: rgba(34,45,50,.5) !important;
       }
       .tab_tab {
         border: 0;
@@ -36,6 +38,11 @@ exports.decorateConfig = (config) => {
       .tab_textActive {
         border-bottom: 2px solid #009688;
       }
+
+			.terms_terms {
+				 background-color: rgb(38,50,56);
+			}
+
       .splitpane_divider {
         background-color: rgba(170, 187, 195, 0.16) !important;
       }
